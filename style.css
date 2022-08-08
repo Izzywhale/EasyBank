@@ -1,0 +1,393 @@
+*{
+    list-style-type: none;
+    
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+body {
+    margin: 0;
+}
+
+main {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-left: 100px; 
+    margin-top: 20px; 
+    background-color: whitesmoke; 
+}
+
+.logo {
+    margin-top: 20px;
+}
+
+.fi {
+    text-decoration: none;
+    text-align: center;
+    color: rgb(148, 132, 132);
+    margin: 0px 20px;
+}
+
+
+
+.request {
+    border: none;
+    border-radius: 15px;
+    background:linear-gradient(to right,
+    hsl(136, 65%, 51%),   rgb(9, 228, 228));
+    font-weight: 600;
+    color:white;
+    /* border: 1px solid rgb(8, 75, 75); */
+    font-size:.6rem ;
+    padding: 10px 25px;
+    /* z-index: -1; */
+}
+
+
+.mid {
+    background-color:rgb(225, 231, 233);
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+header {
+    padding-top: 30px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    /* z-index: -1; */
+}
+
+nav {
+    display: flex;
+    /* justify-content: spa1ce-around; */
+    /* align-items: center;
+    text-align: center; */
+    /* margin: 20px 0; */
+}
+
+nav ul {
+    display: flex;
+}
+
+.hamburger{
+    display: none;
+}
+/* .back {
+    position: absolute;
+    max-height: fit-content;
+    margin-left: 10%;
+} */
+.mockupContainer{
+    width: 100%;
+    transform: translateX(-15%);
+}
+.device {
+    width: 70%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: fit-content;
+}
+
+.upper {
+    width: 90%;
+    margin: 0 auto;
+    /* padding: 60px 0 0 60px; */
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: row-reverse;
+    /* z-index: 1; */
+}
+
+.left {
+    width: 63%;
+    text-align: left;
+    margin-top: 100px;
+}
+.dev {
+    background-image: url(./images/bg-intro-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: translate(20%, -10%);
+    width: 100%;
+    z-index: -1;
+}
+
+.device {
+    width: 70%;
+    bottom:20%; left: 40%;
+    /* z-index: 0; */
+}
+
+.device1 {
+    z-index: 0;
+    position: absolute;
+    left: 45%;
+    bottom: 10%;
+
+}
+.text h1{
+    font-size: 36px;
+font-weight: normal;
+color: hsl(233, 26%, 24%);
+}
+.text h1 span{
+    display: block;
+ }
+.welcome_sect{
+    height: 80vh;
+    background-color: #eee;
+    display: flex;
+    padding: 3rem 0 0 3rem;
+    /* flex-direction: row;
+    gap: 30px;
+    /* margin: 0 auto; */
+    /* margin-top: 1rem;
+    width: 100%;  */
+    }
+
+    /* .welcome_img {
+        position: relative;
+        z-index: -1;
+    } */
+
+    /* width: 100%;
+    display:flex ;
+    overflow-y: hidden;
+    overflow-x: visible;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center; */
+/* z-index: -1; */
+    
+
+/* .mockup_img{
+    position:absolute;
+} */
+/* }
+.mockup_img {
+    width: 100%;
+    background-image: url(./images/bg-intro-desktop.svg);
+     background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: right; 
+} */
+
+.welcome_img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+    
+
+.phone-background{
+    overflow-y: hidden;
+    overflow-x: hidden;
+    justify-self: flex-end;
+    width: 150%; 
+    /* height: 80vh;
+    
+    
+    /* transform: translateY(-10.5rem); */
+    /* margin: 0 auto; */
+   /* left:0; */
+   /* : 5rem; */
+   /* width: 100%; */
+   /* position: relative; */
+    
+
+} */
+.phone-background::before{
+    content: "";
+    position: absolute;
+    top: -5rem;
+    right: 0;
+    width: 48rem;
+    height: 53rem;
+    background-image: url(/images/bg-intro-desktop.svg);} */  
+
+  
+
+.take {
+    color: rgb(148, 132, 132);
+    line-height: 1.5;
+}
+
+.lower {
+    width: 75%;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.why {
+    margin-bottom: 30px;
+}
+
+.leverage {
+    color: rgb(148, 132, 132);
+    line-height: 2px;
+}
+
+.rept {
+    display: flex;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+}
+
+.still {
+    margin: 10px;
+}
+
+.sub {
+    font-size: 13px;
+    filter: opacity(60%);
+}
+
+.online {
+    font-size: 17px;
+    /* font-weight: bold; */
+}
+
+.latest {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.photos {
+    display: flex;
+    width: 100%;
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+.fada {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+}
+
+.clear {
+    font-size: 10px;
+}
+
+.world {
+    font-size: 16px;
+}
+
+.rcv {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.logo2 {
+    margin-top: 15px;
+    /* margin-left: 200px; */
+    margin-right: auto;
+    filter: brightness(500%);
+}
+
+footer {
+    background-color: rgb(28, 28, 61);
+    display: flex;
+    justify-content: space-around;
+}
+
+.lg, .mi, .ni {
+    
+    margin-top: 20px;
+}
+
+.mi {
+    margin-left: 10px;
+}
+
+.ap {
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+.request:hover {
+    filter: opacity(60%);
+    cursor: pointer;
+}
+
+.fi:active{
+    color: black;
+    cursor: pointer;
+}
+
+@media screen and (max-width:600px) {
+    nav {
+        float: right;
+        display: block;
+        width: 30%;
+    }
+
+    .upper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dev { 
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .device, .back {
+        width:100%;
+        height: 100%;
+    }
+
+    .rept {
+        display: block;
+        text-align: center;
+    }
+   .photos {
+       display: block;
+       padding: 0;
+       margin-left: auto;
+       margin-right: auto;
+       
+   }
+
+   .fada {
+       width: 70%;
+       margin-left: auto;
+       margin-right:auto ;
+   }
+   img.cu, img.plane, img.restaurant, img.celebration {
+       width: 350px;
+       height: 250px;
+   }
+   .rcv, .world {
+       padding: 20px;
+   }
+   footer {
+       display: block;
+       width: 70%;
+       margin-left: auto;
+       margin-right:auto 
+       
+   }
+   .li,.mi,.ni {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+   }
+
+}
